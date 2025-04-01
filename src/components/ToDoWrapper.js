@@ -35,8 +35,6 @@ export const ToDoWrapper = () => {
   };
 
   const changeTodo = (updatedTodo, id) => {
-    console.log("b", updatedTodo);
-    console.log("c", todos);
 
     setTodos(
       todos.map((todo) =>
