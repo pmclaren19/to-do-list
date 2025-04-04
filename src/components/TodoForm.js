@@ -20,7 +20,7 @@ export const TodoForm = ({ addTodo }) => {
         onChange={(e) => setValue(e.target.value)}
       />
       <button type="submit" className="todo-button">
-        Add todo
+        Add to do
       </button>
     </form>
   );
